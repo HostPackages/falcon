@@ -1,15 +1,29 @@
-### Please check if the PR fulfills these requirements ###
+### Summary
+<!-- Please mention all relevant issue numbers. -->
+Main Code: []()
+```
 
-- [ ] The commit message follows our guidelines
-- [ ] Tests for the changes have been added (for bug fixes / features)
-- [ ] Docs have been added / updated (for bug fixes / features)
+```
 
-**What kind of change does this PR introduce? (Bug fix, feature, docs update, ...)**
+###  Checklist
+<!-- Please keep this section. It will make maintainer's life easier. -->
+1. [ ] Privileged views and APIs are guarded by proper permission checks.
+1. [ ] All visible strings are translated with proper context.
+1. [ ] All data-formatting is locale-aware (dates, numbers, and so on).
+1. [ ] Database queries are optimized and the number of queries is constant.
+1. [ ] Database migration files are up to date.
+1. [ ] The changes are tested.
+1. [ ] The code is documented (docstrings, project documentation).
+1. [ ] GraphQL schema and type definitions are up to date.
+1. [ ] Changes are mentioned in the changelog.
 
-**What is the current behavior? (You can also link to an open issue here)**
+### Reference
+<!-- Put some necessary link for referrence of the PR  -->
 
-**What is the new behavior (if this is a feature change)?**
+- []()
+- []()
+- []()
 
-**Does this PR introduce a breaking change? (What changes might users need to make in their application due to this PR?)**
-
-**Other information:**
+### Screenshots
+<!-- If your changes affect the UI, providing "before" and "after" screenshots will
+greatly reduce the amount of work needed to review your work. -->
